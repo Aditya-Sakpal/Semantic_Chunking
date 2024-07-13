@@ -5,8 +5,8 @@ from wordsegment import load, segment
 import csv
 
 load()
-os.environ["PINECONE_API_KEY"] = '64e1b57c-27cf-456d-926c-2dfbe493e5ea'
-pc = PineconeGRPC(api_key='64e1b57c-27cf-456d-926c-2dfbe493e5ea')
+os.environ["PINECONE_API_KEY"] = ''
+pc = PineconeGRPC(api_key='')
 index = pc.Index('drmalpani')
 
 
