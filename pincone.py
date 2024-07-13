@@ -11,8 +11,8 @@ index = pc.Index('drmalpani')
 
 
 
-OPENAI_API_KEY = "sk-proj-rvC8Cj2NQiWDr7ectcAmT3BlbkFJOn66hjw8tjv6dIk1OxUg"
-OPENAI_ORGANIZATION = "org-kpRMeqZ5COwhxletMEWCNJCN"
+OPENAI_API_KEY = ""
+OPENAI_ORGANIZATION = ""
 EMBEDDING_MODEL = "text-embedding-ada-002"
 
 client = OpenAI(
