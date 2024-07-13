@@ -88,10 +88,10 @@ def process_pdf(pdf_path):
 
 # documents = [Document(page_content=d['text'], metadata=d['metadata']) for d in lst[0]]
 
-pc = Pinecone(api_key='64e1b57c-27cf-456d-926c-2dfbe493e5ea')
-index = pc.Index('drmalpani')
-OPENAI_API_KEY = "sk-proj-rvC8Cj2NQiWDr7ectcAmT3BlbkFJOn66hjw8tjv6dIk1OxUg"
-OPENAI_ORGANIZATION = "org-kpRMeqZ5COwhxletMEWCNJCN"
+pc = Pinecone(api_key='')
+index = pc.Index('')
+OPENAI_API_KEY = ""
+OPENAI_ORGANIZATION = ""
 EMBEDDING_MODEL = "text-embedding-ada-002"
 
 index.delete(namespace="ncert3",delete_all=True)
