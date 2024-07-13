@@ -11,7 +11,7 @@ from openai import OpenAI
 import uuid  # To generate unique IDs
 from pinecone.grpc import PineconeGRPC as Pinecone
 
-os.environ["OPENAI_API_KEY"] ='sk-proj-rvC8Cj2NQiWDr7ectcAmT3BlbkFJOn66hjw8tjv6dIk1OxUg'
+os.environ["OPENAI_API_KEY"] =''
 
 embed_model = OpenAIEmbedding()
 splitter = SemanticSplitterNodeParser(
