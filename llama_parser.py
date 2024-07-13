@@ -14,8 +14,8 @@ import uuid
 import re
 from urllib.parse import urlparse
 
-os.environ["OPENAI_API_KEY"] ='sk-proj-rvC8Cj2NQiWDr7ectcAmT3BlbkFJOn66hjw8tjv6dIk1OxUg'
-os.environ["LLAMA_CLOUD_API_KEY"]='llx-xlwJSOBd4Lo2UXBXz1XdVUs7KnuDY7WNljLjHLiKFZHcn4aH'
+os.environ["OPENAI_API_KEY"] =''
+os.environ["LLAMA_CLOUD_API_KEY"]=''
 
 
 
@@ -207,10 +207,10 @@ for pdf_path in pdf_paths:
 
 
 
-pc = Pinecone(api_key='64e1b57c-27cf-456d-926c-2dfbe493e5ea')
-index = pc.Index('drmalpani')
-OPENAI_API_KEY = "sk-proj-rvC8Cj2NQiWDr7ectcAmT3BlbkFJOn66hjw8tjv6dIk1OxUg"
-OPENAI_ORGANIZATION = "org-kpRMeqZ5COwhxletMEWCNJCN"
+pc = Pinecone(api_key='')
+index = pc.Index('')
+OPENAI_API_KEY = ""
+OPENAI_ORGANIZATION = ""
 EMBEDDING_MODEL = "text-embedding-ada-002"
 
 client = OpenAI(
