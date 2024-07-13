@@ -7,8 +7,8 @@ from pinecone.grpc import PineconeGRPC as Pinecone
 import uuid  
 from llama_parse import LlamaParse
 
-os.environ["OPENAI_API_KEY"] ='sk-proj-rvC8Cj2NQiWDr7ectcAmT3BlbkFJOn66hjw8tjv6dIk1OxUg'
-os.environ["LLAMA_CLOUD_API_KEY"]='llx-7O0m3A0ZG46ANWroroum1yu4o9YyzNKljS53tlCaGbvVsw8G'
+os.environ["OPENAI_API_KEY"] =''
+os.environ["LLAMA_CLOUD_API_KEY"]=''
 
 
 parser = LlamaParse(
@@ -71,12 +71,6 @@ with open('semantic1_chunks_ivf_india.txt','w', encoding='utf-8') as f:
         f.write(i+'\n\n\n\n')
     
     
-# pc = Pinecone(api_key='64e1b57c-27cf-456d-926c-2dfbe493e5ea')
-# index = pc.Index('drmalpani')
-# OPENAI_API_KEY = "sk-proj-rvC8Cj2NQiWDr7ectcAmT3BlbkFJOn66hjw8tjv6dIk1OxUg"
-# OPENAI_ORGANIZATION = "org-kpRMeqZ5COwhxletMEWCNJCN"
-# EMBEDDING_MODEL = "text-embedding-ada-002"
-
 # client = OpenAI(
 #     api_key=OPENAI_API_KEY,
 #     organization=OPENAI_ORGANIZATION
